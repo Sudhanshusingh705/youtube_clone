@@ -1,0 +1,63 @@
+#container {
+  display: flex;
+  height: 100%;
+  padding-top: 60px;
+}
+
+#left-nav {
+  width: 18%;
+  position: fixed;
+  background: white;
+}
+
+#left-nav ul {
+  list-style: none;
+}
+
+#left-nav ul li {
+  padding: 15px 0px;
+  cursor: pointer;
+}
+
+#left-nav img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+#search-results {
+  margin-left: 18%;
+  width: 82%;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
+#search-results > div {
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search-results > div > img {
+  width: 28%;
+}
+
+#search-results > div > div {
+  padding-left: 20px;
+  width: 70%;
+}
+
+#search-results > div > div > h2,
+#search-results > div > div > p:last-child {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 80%;
+  margin: 5px 0px;
+}
+
+#search-results > div > p {
+  margin: 5px 0px;
+  font-size: 0.8rem;
+}

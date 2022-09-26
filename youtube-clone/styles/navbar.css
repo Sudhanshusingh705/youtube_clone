@@ -1,0 +1,77 @@
+body {
+  font-family: "Roboto";
+  margin: 0px;
+  background: white;
+}
+
+#navbar {
+  padding: 10px 30px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 100;
+  width: 96%;
+  background: white;
+}
+
+#navbar img {
+  margin-right: 15px;
+}
+
+#navbar > div {
+  display: flex;
+}
+
+#navbar-left > div {
+  margin-top: 2px;
+}
+
+#navbar-left {
+  padding: 5px 0px;
+  width: 20%;
+  justify-content: start;
+}
+
+#navbar-center {
+  width: 50%;
+  justify-content: center;
+}
+
+#navbar-center > div {
+  padding: 5px 2px 5px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  background: #f0f0f0;
+}
+
+#navbar-center > img {
+  padding: 8px 12px;
+}
+
+#navbar-right {
+  width: 30%;
+  justify-content: end;
+}
+
+#navbar-right > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 30px;
+  padding-top: 7px;
+}
+
+#navbar-right > div > img {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+#search-input {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 7px 15px;
+  outline: none;
+  width: 90%;
+}
